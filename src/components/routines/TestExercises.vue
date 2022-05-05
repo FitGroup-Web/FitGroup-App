@@ -145,19 +145,14 @@ export default {
     margin-top: 80px;
     background-color: #272424;
 }
-#infobodycard{
-    padding: 5em;
-}
+
 #passer{
     background-color: #005AEE;
 }
 .mt-12{
     color: black;
 }
-.video
-v-img{
-    height: auto;
-}
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -172,11 +167,6 @@ v-img{
     width: 100%;
     height: 100%;
 }
-.punctuation-difficulty{
-    width: 100%;
-}
-.punctuation-difficulty {
-    width: 100%;
-}
+
 
 </style>
