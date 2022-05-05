@@ -58,7 +58,9 @@
                         <h3 class="text-center mt-3">Forget your password?</h3>
                       </v-card-text>
                       <div class="text-center mt-3">
+                        <router-link class="link" :to="{ name: 'Routine' }">
                         <v-btn rounded color=#00EBEE  dark>SIGN IN</v-btn>
+                        </router-link>
                       </div>
                       <br>
                     </v-col>
@@ -267,7 +269,9 @@ export default {
 .mt-12{
   color: black;
 }
-
+.link {
+  text-decoration: none;
+}
 v-img{
   height: auto;
 }

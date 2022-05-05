@@ -11,7 +11,7 @@
                         >
                             <v-card-actions>
                                 <v-btn class="button start-routine" variant="text">
-                                    ABS ROUTINE
+                                    <router-link class="link" :to="{ name: 'TestExercise' }">ABS ROUTINE</router-link>
                                 </v-btn>
                             </v-card-actions>
                         </v-img>
