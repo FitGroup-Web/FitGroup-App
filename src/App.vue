@@ -29,7 +29,7 @@ export default {
 .app {
   min-height: 100vh;
   position: relative;
-  background-color: #383838;
+  background-color: #272424;
 }
 .container {
   padding: 0 20px;

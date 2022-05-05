@@ -3,6 +3,7 @@ import LogInRegister from '../views/LogInRegister.vue'
 import Home from '../views/Home.vue';
 import Routines from '../views/Routines.vue';
 import Nutrition from '../views/Nutrition.vue';
+import TestExercises from '../components/routines/TestExercises.vue';
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
     path: '/nutrition',
     name: 'Nutrition',
     component: Nutrition
+  },
+  {
+    path: '/test',
+    name: 'TestExercise',
+    component: TestExercises
   }
 ]
 
