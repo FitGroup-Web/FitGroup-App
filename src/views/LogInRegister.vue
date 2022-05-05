@@ -1,13 +1,6 @@
 <template >
 
   <v-app id="inspire">
-    <v-card color=#222222
-            flat
-            height="100px"
-            tile>
-      <v-img height="70%" vertical-align="middle" src="../src/assets/logoFitGroup.png"></v-img>
-    </v-card>
-
     <v-content>
       <br><br><br>
       <v-container class="fill-height" fluid>
@@ -226,7 +219,7 @@
 
 <script>
 export default {
-  name: "LogIn-Register",
+  name: "LogInRegister",
   data:()=>({
     step:1,
     passwordShow:false,
@@ -273,5 +266,9 @@ export default {
 }
 .mt-12{
   color: black;
+}
+
+v-img{
+  height: auto;
 }
 </style>
