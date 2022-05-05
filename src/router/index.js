@@ -3,6 +3,7 @@ import LogInRegister from '../views/LogInRegister.vue'
 import Home from '../views/Home.vue';
 import Routines from '../views/Routines.vue';
 import Nutrition from '../views/Nutrition.vue';
+import PhisicalActivity from '../components/PhisicalActivity.vue'
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: '/home',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/phisical-activity',
+    name: 'PhisicalActivity',
+    component: PhisicalActivity
   },
   {
     path: '/routines',
