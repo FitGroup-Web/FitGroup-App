@@ -4,17 +4,17 @@
             <v-col class="mx-auto">
                 <v-container >
                     <v-card class="card type-routine">
+                        <router-link class="link" :to="{ name: 'AbsRoutine' }">
                         <v-img
                                 class="align-end text-white"
                                 src="https://www.beingtheparent.com/wp-content/uploads/2021/05/teen-doing-V-sit-stretch.jpg"
                                 cover
                         >
                             <v-card-actions>
-                                <v-btn class="button start-routine" variant="text">
-                                    ABS ROUTINE
-                                </v-btn>
+                                <span class="button start-routine">ABS ROUTINE</span>
                             </v-card-actions>
                         </v-img>
+                        </router-link>
                     </v-card>
                 </v-container>
             </v-col>
@@ -28,9 +28,8 @@
                         >
 
                             <v-card-actions>
-                                <v-btn class="button start-routine" variant="text">
-                                    ARMS ROUTINE
-                                </v-btn>
+                                <span class="button start-routine">ARMS ROUTINE</span>
+                                
                             </v-card-actions>
                         </v-img>
                     </v-card>
@@ -120,5 +119,8 @@ export default {
     font-size: 20px;
     line-height: 36px;
     color: black;
+}
+.link {
+    text-decoration: none;
 }
 </style>

@@ -1,8 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
 import LogInRegister from '../views/LogInRegister.vue'
 import Home from '../views/Home.vue';
 import Routines from '../views/Routines.vue';
 import Nutrition from '../views/Nutrition.vue';
+import AbsRoutine from '../components/AbsRoutine.vue';
+import Superman from '../components/Superman.vue';
 
 const routes = [
   {
@@ -29,6 +31,16 @@ const routes = [
     path: '/nutrition',
     name: 'Nutrition',
     component: Nutrition
+  },
+  {
+    path: '/absroutine',
+    name: 'AbsRoutine',
+    component: AbsRoutine
+  },
+  {
+    path: '/superman',
+    name: 'Superman',
+    component: Superman
   }
 ]
 
