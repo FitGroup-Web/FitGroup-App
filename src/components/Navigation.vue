@@ -31,7 +31,7 @@ export default {
           scrollNav:null,
           mobile:null,
           mobileNav:null,
-          windowWidth: null
+          windowWidth: null,
       }
     },
     created() {
