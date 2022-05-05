@@ -110,7 +110,9 @@
                                                 </div>
                                             </v-card-text>
                                             <div class="text-center">
-                                                <v-btn rounded color=#00EBEE outlined="" dark @click="step++">NEXT</v-btn>
+                                                <v-btn rounded color=#00EBEE outlined="" dark @click="step++">
+                                                    <router-link class="link" :to="{ name: 'AbsRoutine' }">NEXT</router-link>
+                                                </v-btn>
                                             </div>
                                             <br><br>
 

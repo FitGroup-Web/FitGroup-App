@@ -4,7 +4,8 @@ import Home from '../views/Home.vue';
 import Routines from '../views/Routines.vue';
 import Nutrition from '../views/Nutrition.vue';
 import TestExercises from '../components/routines/TestExercises.vue';
-
+import AbsRoutine from '../components/routines/types/AbsRoutine.vue';
+import ExerciseSuperman from '../components/routines/exercises/ExerciseSuperman.vue';
 const routes = [
   {
     path: '/',
@@ -35,6 +36,16 @@ const routes = [
     path: '/test',
     name: 'TestExercise',
     component: TestExercises
+  },
+  {
+    path: '/abs-routine',
+    name: 'AbsRoutine',
+    component: AbsRoutine
+  },
+  {
+    path: '/exercise-superman',
+    name: 'ExerciseSuperman',
+    component: ExerciseSuperman
   }
 ]
 

@@ -13,7 +13,7 @@
                     <v-card class="mx-auto" max-width="344" outlined color="#272424"> 
                     <v-list-item three-line>
                         
-                    <img class="image" src="../assets/superman.png">
+                    <img class="image" src="../../../assets/routines/exercise-superman.png">
                     <v-list-item-content>
                         <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
                         SUPERMAN
@@ -25,7 +25,7 @@
                     </v-list-item>
 
                     <v-card-actions>
-                    <router-link class="link" :to="{ name: 'Superman' }">
+                    <router-link class="link" :to="{ name: 'ExerciseSuperman' }">
                     <v-btn outlined rounded text class="button">
                         INICIAR
                     </v-btn>
@@ -40,7 +40,7 @@
                 <v-container class="workout">
                     <v-card class="mx-auto" max-width="344" outlined color="#272424">
                     <v-list-item three-line>
-                            <img class="image" src="../assets/plank.png">
+                            <img class="image" src="../../../assets/routines/exercise-plank.png">
                         <v-list-item-content>
                             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
                             PLANK
@@ -66,7 +66,7 @@
         
         <v-card class="mx-auto" max-width="344" outlined color="#272424">
         <v-list-item three-line>
-            <img class="image" src="../assets/crisscross.png">
+            <img class="image" src="../../../assets/routines/exercise-crisscross.png">
         <v-list-item-content>
             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
             CRISS CROSS            
