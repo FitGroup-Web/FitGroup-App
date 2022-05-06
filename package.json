@@ -14,7 +14,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "roboto-fontface": "*",
+    "v-video-embed": "^1.0.8",
     "vue": "^3.2.25",
+    "vue-circular-count-down-timer": "^2.0.0",
     "vue-router": "^4.0.14",
     "vuetify": "^3.0.0-beta.0",
     "webfontloader": "^1.0.0"

@@ -31,7 +31,7 @@ export default {
           scrollNav:null,
           mobile:null,
           mobileNav:null,
-          windowWidth: null
+          windowWidth: null,
       }
     },
     created() {
@@ -68,7 +68,7 @@ export default {
 
 <style scoped>
 header{
-    background-color: #272424;
+    background-color: #212116;
     z-index: 99;
     width: 100%;
     position: fixed;
