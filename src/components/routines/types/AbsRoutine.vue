@@ -1,25 +1,23 @@
 <template>
     
     <v-container class="title">
-                    <v-card class="type-title">                            
-                        <span class="button-title text-white">
-                            <h1 class="button-title">Abs Routines</h1>  
-                        </span>     
-                    </v-card>
+        <v-card class="type-title">
+                <h1>Abdominal Routine</h1>
+        </v-card>
     </v-container>
     <v-row>
         <v-col>
                 <v-container class="workout">
-                    <v-card class="mx-auto" max-width="344" outlined color="#272424"> 
+                    <v-card class="mx-auto" max-width="400" outlined color="#272424">
                     <v-list-item three-line>
                         
-                    <img class="image" src="../../../assets/routines/exercise-superman.png">
-                    <v-list-item-content>
-                        <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
-                        SUPERMAN
-                        </v-list-item-title>
-                        <v-list-item-subtitle class="mb-1 pa-5 text-grey">3 minutos</v-list-item-subtitle>
-                    </v-list-item-content>
+                        <img class="image" src="../../../assets/routines/exercises/exercise-superman.png" alt="Exercise Superman">
+                        <v-list-item-content>
+                            <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
+                            SUPERMAN
+                            </v-list-item-title>
+                            <v-list-item-subtitle class="mb-1 pa-5 text-grey">3 minutos</v-list-item-subtitle>
+                        </v-list-item-content>
 
                     
                     </v-list-item>
@@ -38,9 +36,9 @@
     <v-row>
             <v-col>
                 <v-container class="workout">
-                    <v-card class="mx-auto" max-width="344" outlined color="#272424">
+                    <v-card class="mx-auto" max-width="400" outlined color="#272424">
                     <v-list-item three-line>
-                            <img class="image" src="../../../assets/routines/exercise-plank.png">
+                            <img class="image" src="../../../assets/routines/exercises/exercise-plank.png" alt="Exercise plank">
                         <v-list-item-content>
                             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
                             PLANK
@@ -64,9 +62,9 @@
     
     <v-container class="workout">
         
-        <v-card class="mx-auto" max-width="344" outlined color="#272424">
+        <v-card class="mx-auto" max-width="400" outlined color="#272424">
         <v-list-item three-line>
-            <img class="image" src="../../../assets/routines/exercise-crisscross.png">
+            <img class="image" src="../../../assets/routines/exercises/exercise-crisscross.png" alt="Crisscross Exercise">
         <v-list-item-content>
             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
             CRISS CROSS            
@@ -99,17 +97,13 @@ export default {
 .title{
     margin-top: 100px;
 }
-.button-title{
-    margin-left: 300px;
-    margin-bottom: 10px;
-}
-.routines-available{
-    margin-top: 120px;
-}
+
+
 .type-title{
     max-width: 500px;
     background: gray;
-
+    justify-content: center;
+    padding-left: 30px;
 }
 .workout{
     margin-left: 0px;
@@ -123,4 +117,8 @@ export default {
     max-width: 40%;
 }
 
+h1 {
+    color: white;
+    font-weight: bold;
+}
 </style>

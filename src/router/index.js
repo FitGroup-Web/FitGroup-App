@@ -3,11 +3,12 @@ import LogInRegister from '../views/LogInRegister.vue'
 import Home from '../views/Home.vue';
 import Routines from '../views/Routines.vue';
 import Nutrition from '../views/Nutrition.vue';
-import PhisicalActivity from '../components/PhisicalActivity.vue'
-
+import PhysicalActivity from '../components/forms/FormPhysicalActivity.vue'
 import TestExercises from '../components/routines/TestExercises.vue';
 import AbsRoutine from '../components/routines/types/AbsRoutine.vue';
 import ExerciseSuperman from '../components/routines/exercises/ExerciseSuperman.vue';
+
+
 const routes = [
   {
     path: '/',
@@ -25,9 +26,9 @@ const routes = [
     component: Home
   },
   {
-    path: '/phisical-activity',
-    name: 'PhisicalActivity',
-    component: PhisicalActivity
+    path: '/form-physical-activity',
+    name: 'PhysicalActivity',
+    component: PhysicalActivity
   },
   {
     path: '/routines',

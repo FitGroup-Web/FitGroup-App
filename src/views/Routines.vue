@@ -11,7 +11,7 @@
                         >
                             <v-card-actions>
                                 <v-btn class="button start-routine" variant="text">
-                                    <router-link class="link" :to="{ name: 'TestExercise' }">ABS ROUTINE</router-link>
+                                    <router-link class="link-test-exercises" :to="{ name: 'TestExercise' }">ABS ROUTINE</router-link>
                                 </v-btn>
                             </v-card-actions>
                         </v-img>
@@ -61,7 +61,7 @@
                     <v-card class="card type-routine">
                         <v-img
                                 class="align-end text-white"
-                                src="https://www.beingtheparent.com/wp-content/uploads/2021/05/teen-doing-V-sit-stretch.jpg"
+                                src="https://media.revistagq.com/photos/5ea839ad7cd6bf0008ceebd8/16:9/w_2560%2Cc_limit/GettyImages-559688779.jpg"
                                 cover
                         >
 
@@ -114,6 +114,16 @@ export default {
 
 }
 .mx-auto .type-routine .button.start-routine{
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: black;
+}
+.link-test-exercises{
+    list-style: none;
+    text-decoration: none;
     margin-left: 25px;
     font-style: normal;
     font-weight: 700;
