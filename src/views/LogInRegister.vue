@@ -1,7 +1,6 @@
 <template >
-
   <v-app id="inspire">
-    <v-content>
+    <v-container>
       <br><br><br>
       <v-container class="fill-height" fluid>
         <v-row align="center" justify="center">
@@ -58,8 +57,8 @@
                         <h3 class="text-center mt-3">Forget your password?</h3>
                       </v-card-text>
                       <div class="text-center mt-3">
-                        <router-link class="link" :to="{ name: 'Routine' }">
-                        <v-btn rounded color=#00EBEE  dark>SIGN IN</v-btn>
+                        <router-link class="link" :to="{ name: 'Routines' }">
+                            <v-btn rounded color=#00EBEE  dark>SIGN IN</v-btn>
                         </router-link>
                       </div>
                       <br>
@@ -67,10 +66,10 @@
                     <v-col id="passer" cols="12" md="4" class="teal accent-3">
                       <v-card-text class="white--text mt-12">
                         <h1 class="text-center display-1">Hello, Friends!</h1>
-                        <h5 class="text-center">Enter your personal information and start journay with us</h5>
+                        <h5 class="text-center">Enter your personal information and start journey with us</h5>
                       </v-card-text>
                       <div class="text-center">
-                        <v-btn rounded color=#00EBEE outlined="" dark @click="step++">SIGN UP</v-btn>
+                          <v-btn rounded color=#00EBEE outlined="" dark @click="step++">SIGN UP</v-btn>
                       </div>
 
                     </v-col>
@@ -154,7 +153,7 @@
                 <v-window-item :value="3">
                   <v-row>
                     <v-col cols="12" md="8">
-                      <v-card-text id="infobodycard" class="mt-12">
+                      <v-card-text  class="card user-information mt-12">
                         <h1 class="text-sm-left display-2 teal--text text--accent-3" >Before continuing...</h1>
                         <h4 class="text-left mt-4">Enter your personal information</h4>
                         <br>
@@ -198,13 +197,15 @@
 
                       </v-card-text>
                       <div class="text-center mt-3">
-                        <v-btn rounded color=#00EBEE  dark>LET'S DO IT</v-btn>
+                          <router-link class="link" :to="{ name: 'Home' }">
+                              <v-btn rounded color=#00EBEE  dark>LET'S DO IT</v-btn>
+                          </router-link>
                       </div>
                       <br>
                     </v-col>
                     <v-col id="" cols="12" md="4" class="teal accent-3" >
                       <v-card-text class="white--text mt-12" >
-                        <v-img  src="../src/assets/trainer.png"
+                        <v-img  src="../src/assets/register/trainer.png"
                         class="d-flex justify-center mb-6"></v-img>
                       </v-card-text>
                     </v-col>
@@ -215,7 +216,7 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-content>
+    </v-container>
   </v-app>
 </template>
 
@@ -258,9 +259,9 @@ export default {
 
 <style scoped>
 #inspire{
-  background-color: dimgray;
+  background-color: #212121;
 }
-#infobodycard{
+.card.user-information{
   padding: 5em;
 }
 #passer{

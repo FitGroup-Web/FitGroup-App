@@ -5,6 +5,8 @@
 
         <router-view></router-view>
         </v-container>
+        <br><br><br><br>
+        <Footer/>
     </div>
 
 
@@ -12,8 +14,9 @@
 
 <script>
 import Navigation from './components/Navigation.vue';
+import Footer from './components/Footer.vue';
 export default {
-    components: {Navigation}
+    components: {Navigation,Footer}
 }
 </script>
 
