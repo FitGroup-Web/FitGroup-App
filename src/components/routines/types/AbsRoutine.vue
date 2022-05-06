@@ -16,7 +16,7 @@
                             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
                             SUPERMAN
                             </v-list-item-title>
-                            <v-list-item-subtitle class="mb-1 pa-5 text-grey">3 minutos</v-list-item-subtitle>
+                            <v-list-item-subtitle class="mb-1 pa-5 text-grey">3 minutes</v-list-item-subtitle>
                         </v-list-item-content>
 
                     
@@ -25,7 +25,7 @@
                     <v-card-actions>
                     <router-link class="link" :to="{ name: 'ExerciseSuperman' }">
                     <v-btn outlined rounded text class="button">
-                        INICIAR
+                        START
                     </v-btn>
                     </router-link>
                     </v-card-actions>
@@ -43,13 +43,13 @@
                             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
                             PLANK
                             </v-list-item-title>
-                            <v-list-item-subtitle class="mb-1 pa-5 text-grey">30 segundos</v-list-item-subtitle>
+                            <v-list-item-subtitle class="mb-1 pa-5 text-grey">30 seconds</v-list-item-subtitle>
                         </v-list-item-content>
                         </v-list-item>
 
                         <v-card-actions>
                             <v-btn outlined rounded text class="button">
-                            INICIAR
+                            START
                             </v-btn>
                         </v-card-actions>
                     </v-card>
@@ -69,7 +69,7 @@
             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
             CRISS CROSS            
             </v-list-item-title>
-            <v-list-item-subtitle class="mb-1 pa-5 text-grey">30 segundos</v-list-item-subtitle>
+            <v-list-item-subtitle class="mb-1 pa-5 text-grey">30 seconds</v-list-item-subtitle>
         </v-list-item-content>
 
         
@@ -77,7 +77,7 @@
 
         <v-card-actions>
         <v-btn outlined rounded text class="button">
-            INICIAR
+            START
         </v-btn>
         </v-card-actions>
     </v-card>
