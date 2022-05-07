@@ -26,7 +26,7 @@
                             <v-col cols="4" sm="4" md="4">
                             <div class="container-image">
                             <img
-                              src="../assets/routines/icons/icon-lose-weight.png"
+                              src="../Routines/images/icons/icon-lose-weight.png"
                               class="objectives-images"
                              alt="Lose Weight Icon"/>
                             </div>
@@ -69,7 +69,7 @@
                         <v-col cols="4" sm="4" md="4">
                           <div class="container-image">
                             <img
-                              src="../assets/routines/icons/icon-gain-muscles.png"
+                              src="../Routines/images/icons/icon-gain-muscles.png"
                               class="objectives-images"
                              alt="Gain Muscle Icon"/>
                           </div>
@@ -112,7 +112,7 @@
                             <v-col cols="4" sm="4" md="4">
                               <div class="container-image">
                                 <img
-                                  src="../assets/routines/icons/icon-keep-weight.png"
+                                  src="../Routines/images/icons/icon-keep-weight.png"
                                   class="objectives-images"
                                  alt="Keep Weight Icon"/>
                               </div>

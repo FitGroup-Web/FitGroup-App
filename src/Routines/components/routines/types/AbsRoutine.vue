@@ -11,7 +11,7 @@
                     <v-card class="mx-auto" max-width="400" outlined color="#272424">
                     <v-list-item three-line>
                         
-                        <img class="image" src="../../../assets/routines/exercises/exercise-superman.png" alt="Exercise Superman">
+                        <img class="image" src="../../../images/exercises/exercise-superman.png" alt="Exercise Superman">
                         <v-list-item-content>
                             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
                             SUPERMAN
@@ -38,7 +38,7 @@
                 <v-container class="workout">
                     <v-card class="mx-auto" max-width="400" outlined color="#272424">
                     <v-list-item three-line>
-                            <img class="image" src="../../../assets/routines/exercises/exercise-plank.png" alt="Exercise plank">
+                            <img class="image" src="../../../images/exercises/exercise-plank.png" alt="Exercise plank">
                         <v-list-item-content>
                             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
                             PLANK
@@ -64,7 +64,7 @@
         
         <v-card class="mx-auto" max-width="400" outlined color="#272424">
         <v-list-item three-line>
-            <img class="image" src="../../../assets/routines/exercises/exercise-crisscross.png" alt="Crisscross Exercise">
+            <img class="image" src="../../../images/exercises/exercise-crisscross.png" alt="Crisscross Exercise">
         <v-list-item-content>
             <v-list-item-title class="text-h5 mb-1 pa-5 text-white">
             CRISS CROSS            

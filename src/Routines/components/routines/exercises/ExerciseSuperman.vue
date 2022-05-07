@@ -19,7 +19,7 @@
           <v-container>
           <div class="container-image">
               <img
-                      src="../../../assets/routines/icons/icon-timer.png"
+                      src="../../../images/icons/icon-timer.png"
                       class="objectives-images"
                       alt="Counter Timer Icon"/>
           </div>

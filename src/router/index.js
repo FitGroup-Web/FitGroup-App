@@ -1,19 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LogInRegister from '../views/LogInRegister.vue'
 import Home from '../views/Home.vue';
-import Routines from '../views/Routines.vue';
-import Nutrition from '../views/Nutrition.vue';
-import PhysicalActivity from '../components/forms/FormPhysicalActivity.vue'
-import TestExercises from '../components/routines/TestExercises.vue';
-import AbsRoutine from '../components/routines/types/AbsRoutine.vue';
-import ExerciseSuperman from '../components/routines/exercises/ExerciseSuperman.vue';
+import Routines from '../Routines/Routines.vue';
+import Nutrition from '../Nutrition/Nutrition.vue';
+import PhysicalActivity from '../Routines/components/forms/FormPhysicalActivity.vue'
+import TestExercises from '../Routines/components/routines/TestExercises.vue';
+import AbsRoutine from '../Routines/components/routines/types/AbsRoutine.vue';
+import ExerciseSuperman from '../Routines/components/routines/exercises/ExerciseSuperman.vue';
 
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'login',
+    component: LogInRegister
   },
   {
     path: '/login',

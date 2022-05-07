@@ -38,7 +38,7 @@
                          <v-col cols="4" sm="4" md="4">
                           <div class="container-image">
                             <img
-                              src="../../assets/routines/icons/icon-sedentary.png"
+                              src="../../images/icons/icon-sedentary.png"
                               class="objectives-images"
                              alt="Sedentary Icon"/>
                           </div>
@@ -82,7 +82,7 @@
                              <v-col cols="4" sm="4" md="4">
                               <div class="container-image">
                                 <img
-                                  src="../../assets/routines/icons/icon-light.png"
+                                  src="../../images/icons/icon-light.png"
                                   class="objectives-images"
                                  alt="Light Icon"/>
                               </div>
@@ -126,7 +126,7 @@
                              <v-col cols="4" sm="4" md="4">
                               <div class="container-image">
                                 <img
-                                  src="../../assets/routines/icons/icon-medium.png"
+                                  src="../../images/icons/icon-medium.png"
                                   class="objectives-images"
                                  alt="Medium Activity Icon"/>
                               </div>
@@ -169,7 +169,7 @@
                          <v-col cols="4" sm="4" md="4">
                           <div class="container-image">
                             <img
-                              src="../../assets/routines/icons/icon-high.png"
+                              src="../../images/icons/icon-high.png"
                               class="objectives-images"
                              alt="High Activity Icon"/>
                           </div>
@@ -213,7 +213,7 @@
                          <v-col cols="4" sm="4" md="4">
                           <div class="container-image">
                             <img
-                              src="../../assets/routines/icons/icon-athlete.png"
+                              src="../../images/icons/icon-athlete.png"
                               class="objectives-images"
                              alt="Athlete Activity Icon"/>
                           </div>
